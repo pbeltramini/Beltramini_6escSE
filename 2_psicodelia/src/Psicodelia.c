@@ -38,7 +38,7 @@ void ISR_RIT (void)
 	Invertir_led (led);
 	if (led++>LED3)
 	{
-		led=1;   //Hago titilat todos los leds
+		led=1;   //Hago titilar todos los leds
 
 	}
 	Borrar_bandera (); //funcion que limpia el flag
